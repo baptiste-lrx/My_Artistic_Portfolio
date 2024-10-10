@@ -2,6 +2,10 @@
 
 Bienvenue sur mon portfolio ! Ce projet présente mes travaux, compétences et projets à travers une interface élégante et animée.
 
+Vous pouvez y accéder au lien suivant :
+
+https://baptiste-lrx.github.io/Portfolio/
+
 ## Fonctionnalités
 
 - **Galerie d'images interactive** : Explorez mes projets grâce à une galerie d'images fluide avec des animations de glissement.
@@ -18,4 +22,4 @@ Bienvenue sur mon portfolio ! Ce projet présente mes travaux, compétences et p
 
 1. Clonez ce dépôt :
    ```bash
-   git clone [https://github.com/baptiste-lrx/Portfolio.git]
+   git clone https://github.com/baptiste-lrx/Portfolio.git
