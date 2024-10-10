@@ -451,7 +451,24 @@ var main = (function($) { var _ = {
     // Create a blurred background layer
     s.$slide.append('<div class="background-blur" style="background-image: url(' + s.url + ');"></div>');
     // Create a foreground <img> element for the sharp image
-    s.$slide.append('<img class="foreground-image" src="' + s.url + '" alt="Foreground Image" />');
+    s.$slide
+    // Add the new image and prepare for sliding effect
+    // Add the new image and prepare for sliding effect
+    var newImage = $('<img class="foreground-image" src="' + s.url + '" alt="Foreground Image" />').appendTo(s.$slide);
+    // Mark the current image for exiting
+    var currentImage = s.$slide.find('.foreground-image.show');
+    currentImage.addClass('exit').removeClass('show');
+
+    // Delay adding the "show" class to the new image to ensure smooth transition
+    setTimeout(function() {
+        newImage.addClass('show');
+    }, 100); // Slightly increased delay to trigger the animation
+
+    // Remove the exiting image after the animation completes (0.8s to allow for slight buffer)
+    setTimeout(function() {
+        currentImage.remove();
+    }, 800);
+    
     
 
 							// Mark slide as loaded.
@@ -576,7 +593,24 @@ var main = (function($) { var _ = {
     // Create a blurred background layer for the new slide
     newSlide.$slide.append('<div class="background-blur" style="background-image: url(' + newSlide.url + ');"></div>');
     // Create a foreground <img> element for the sharp image
-    newSlide.$slide.append('<img class="foreground-image" src="' + newSlide.url + '" alt="Foreground Image" />');
+    newSlide.$slide
+    // Add the new image and prepare for sliding effect
+    // Add the new image and prepare for sliding effect
+    var newSlideImage = $('<img class="foreground-image" src="' + newSlide.url + '" alt="Foreground Image" />').appendTo(newSlide.$slide);
+    // Mark the current image for exiting
+    var currentImage = newSlide.$slide.find('.foreground-image.show');
+    currentImage.addClass('exit').removeClass('show');
+
+    // Delay adding the "show" class to the new image to ensure smooth transition
+    setTimeout(function() {
+        newSlideImage.addClass('show');
+    }, 100); // Slightly increased delay to trigger the animation
+
+    // Remove the exiting image after the animation completes (0.8s to allow for slight buffer)
+    setTimeout(function() {
+        currentImage.remove();
+    }, 800);
+    
     
 
 										// Mark as loaded.
