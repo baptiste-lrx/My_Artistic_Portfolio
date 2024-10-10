@@ -18,4 +18,4 @@ Bienvenue sur mon portfolio ! Ce projet présente mes travaux, compétences et p
 
 1. Clonez ce dépôt :
    ```bash
-   git clone https://github.com/votre-utilisateur/nom-du-repo.git
+   git clone [https://github.com/baptiste-lrx/Portfolio.git]
