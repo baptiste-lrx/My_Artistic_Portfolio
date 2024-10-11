@@ -22,5 +22,5 @@ https://baptiste-lrx.github.io/My_Artistic_Portfolio/
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/baptiste-lrx/Portfolio.git
+   git clone https://github.com/baptiste-lrx/My_Artistic_Portfolio.git
    ```
