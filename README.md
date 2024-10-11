@@ -1,4 +1,4 @@
-# My Portfolio
+# My Artistic Portfolio
 
 Welcome to my portfolio! This project presents my work, skills and projects through an elegant, animated interface.
 
