@@ -4,7 +4,7 @@ Welcome to my artistic portfolio! This project presents my work, skills and proj
 
 You can access it at the following link:
 
-https://baptiste-lrx.github.io/My_Artistic_Portfolio/
+https://baptiste-lrx.github.io/baptiste-lrx-drawings/
 
 ## Features
 
@@ -22,5 +22,5 @@ https://baptiste-lrx.github.io/My_Artistic_Portfolio/
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/baptiste-lrx/My_Artistic_Portfolio.git
+   git clone https://github.com/baptiste-lrx/baptiste-lrx-drawings.git
    ```
