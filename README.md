@@ -1,25 +1,26 @@
-# Mon Portfolio
+# My Portfolio
 
-Bienvenue sur mon portfolio ! Ce projet présente mes travaux, compétences et projets à travers une interface élégante et animée.
+Welcome to my portfolio! This project presents my work, skills and projects through an elegant, animated interface.
 
-Vous pouvez y accéder au lien suivant :
+You can access it at the following link:
 
 https://baptiste-lrx.github.io/Portfolio/
 
-## Fonctionnalités
+## Features
 
-- **Galerie d'images interactive** : Explorez mes projets grâce à une galerie d'images fluide avec des animations de glissement.
-- **Transitions d'images animées** : Les images glissent élégamment lors des transitions, offrant une expérience utilisateur agréable.
-- **Design responsive** : Le site est optimisé pour s'afficher correctement sur tous les appareils (ordinateurs, tablettes, smartphones).
+- **Interactive image gallery**: Explore my projects through a fluid image gallery with drag-and-drop animations.
+- **Animated image transitions**: Images slide elegantly during transitions, offering a pleasant user experience.
+- **Responsive design**: The site is optimized to display correctly on all devices (computers, tablets, smartphones).
 
-## Technologies utilisées
+## Technologies used
 
-- **HTML5 & CSS3** : Pour la structure et le style du site.
-- **JavaScript** : Pour les animations et interactions dynamiques.
-- **Framework CSS** : Utilisation d'un framework pour faciliter la mise en page responsive.
+- **HTML5 & CSS3**: For site structure and style.
+- **JavaScript**: For animations and dynamic interactions.
+- **Framework CSS**: Use of a framework to facilitate responsive page layout.
 
 ## Installation
 
-1. Clonez ce dépôt :
+1. Clone this repository:
    ```bash
    git clone https://github.com/baptiste-lrx/Portfolio.git
+   ```
