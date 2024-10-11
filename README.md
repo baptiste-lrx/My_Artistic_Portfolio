@@ -1,6 +1,6 @@
 # My Artistic Portfolio
 
-Welcome to my portfolio! This project presents my work, skills and projects through an elegant, animated interface.
+Welcome to my artistic portfolio! This project presents my work, skills and projects through an elegant, animated interface.
 
 You can access it at the following link:
 
