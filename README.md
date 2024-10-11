@@ -4,7 +4,7 @@ Welcome to my portfolio! This project presents my work, skills and projects thro
 
 You can access it at the following link:
 
-https://baptiste-lrx.github.io/Portfolio/
+https://baptiste-lrx.github.io/My_Artistic_Portfolio/
 
 ## Features
 
